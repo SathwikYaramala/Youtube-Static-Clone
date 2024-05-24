@@ -1,0 +1,28 @@
+.sidebar{
+    color: white;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.sidebar-link{
+    flex: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.icon-name{
+    font-family: Roboto, Arial;
+    color: black;
+    font-size:x-small;
+}
